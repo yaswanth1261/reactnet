@@ -12,7 +12,7 @@ export const Mdata=[
     {
         Id : 1,
         Image : Img1,
-        Name : "jurrasicpark",
+        Name : "jurrasicpark12",
         duration : "3hrs",
          Rating : '8/10',
 
