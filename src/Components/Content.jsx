@@ -13,7 +13,7 @@ function Content() {
       <div className=' d-flex f-wrap '>
            <div className='matter '>
       
-            <h4> <span className='n'>N  </span>series</h4>
+            <h4> <span className='n'>N   </span>series</h4>
             <h1 className='mheist'>MONEY <span className='heist'>HEIST</span> </h1>
             <p className='part'>P A R T - 4</p>
             <p><span className='imdb'>IMDB</span>8.8/10</p>
