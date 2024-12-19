@@ -27,13 +27,15 @@ function Content() {
         <img src={Myimg} alt="" />
        </div>
        </div>
+       <h1 className='rweda'style={{fontsize:'15px',fontWeight:'900',color:'white'}}>Popular Movies</h1>
       <div className=' movies1'>
+      
             {
               Mdata1.map((e)=>{
                   return(
                       <div>
-                          <p>{e.Id}</p>
-                          <img src={e.Image} alt="" style={{width:'200px', height:'250px'}}/>
+                          {/* <p>{e.Id}</p> */}
+                          <img src={e.Image} alt="" style={{width:'300px', height:'350px'}}/>
                           <p>{e.Name}</p>
                       
                       </div>

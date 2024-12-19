@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Signup() {
   return (
     <div className='container-fluid signup'>
-        <Link to='/'><button className='bubble'>Login</button></Link>
+        <Link to='/reactnet'><button className='bubble'>Login</button></Link>
         <div className='signupmain'>
             <div className='signupmain-1'>
               <p className='para'>Unlimited movies, TV shows and more</p>
@@ -15,7 +15,7 @@ function Signup() {
                 <input type="password" placeholder='createpassword'className='username1' /><br /><br />
                 <input type="password" placeholder='confirmpassword'className='username1'/>
               </form>
-             <Link to='/'> <button>Getstarted</button></Link>
+             <Link to='/reactnet'> <button>Getstarted</button></Link>
             </div>
         </div>
     </div>

@@ -16,13 +16,13 @@ function Movies() {
       {
         Mdata.map((e)=>{
             return(
-              <Link to={`/movies/${e.Id}`}>
-                <div>
+                <div >
                     <p>{e.Id}</p>
-                    <img src={e.Image} alt="" style={{width:'200px',borderRadius:'5px'}}/>
+                    <Link className='cinema' to={`/movies/${e.Id}`}>
+                    <img src={e.Image} alt="" style={{width:'250px',borderRadius:'10px'}}/></Link>
                     <p>{e.Name}</p>
                   
-                </div></Link>
+                </div>
             )
         })
       }
